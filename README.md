@@ -51,7 +51,7 @@ I am a **passionate programmer** who is striving to fulfill my dream of working 
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>
 </div>
  <br />
-<details>
+<details align="center">
 <summary>🌎 Languages I speak</summary>
 
 - Russian - Native
