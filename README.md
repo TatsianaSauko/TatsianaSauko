@@ -53,8 +53,8 @@ I am a **passionate programmer** who is striving to fulfill my dream of working 
 <h2 align="center">☎️ Contact me</h2>
 
 <div align="center">
-  <a href="https://discord.com/users/217891669079490560" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" /></a>
+  <a href="https://t.me/tatianagabermel" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo" /></a>
   <a href="https://www.linkedin.com/in/tatsiana-savko-278104230" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>
 </div>
