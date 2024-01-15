@@ -1,4 +1,4 @@
-![default](https://github.com/TatsianaSauko/TatsianaSauko/assets/97296492/fe16e2c1-47ca-4dc9-80ea-b4a40a258116)# 👋 Hello, World!
+<h1 align="left">Hello, I'm Tatiana 👋</h1>
 
 I am a **passionate programmer** who is striving to fulfill my dream of working as a **professional developer**. By creating various applications and continuously honing my skills, I am gradually paving my way towards a career in programming.
 
