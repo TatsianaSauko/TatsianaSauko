@@ -1,0 +1,65 @@
+.hamburger {
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  @extend %transition;
+  @include media-tablet-767 {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    top: 50px;
+  }
+}
+
+.hamburger_pets {
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  @extend %transition;
+  @include media-tablet-767 {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    top: 50px;
+  }
+}
+
+
+.hamburger__line {
+  background: $color-primary;
+  width: 30px;
+  height: 2px;
+  @extend %transition;
+
+  //Pets
+  &_pets {
+    background: $hamburger-pets;
+  }
+}
+
+.active-line {
+  @extend %transition;
+  .hamburger__line:nth-child(1) {
+    transform: translate(-9px, 10px) rotate(90deg);
+  }
+
+  .hamburger__line:nth-child(2) {
+    transform: translate(1px, 0) rotate(90deg);
+  }
+
+  .hamburger__line:nth-child(3) {
+    transform: translate(11px, -10px) rotate(90deg);
+}
+}
+
+.fixed {
+  position: fixed;
+  background: rgba(41, 41, 41, 0.6);
+  z-index: 0;
+}

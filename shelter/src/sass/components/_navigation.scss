@@ -1,0 +1,110 @@
+.navigation {
+  @include font($size: 1.5rem, $height: 2.4rem, $color: $color-light-l2);
+  padding-bottom: 4px;
+  display: flex;
+  gap: 35px;
+  @extend %transition;
+  &_pets {
+    @include font($size: 1.5rem, $height: 2.4rem, $color: $color-dark-l);
+  }
+  @include media-tablet-767 {
+    position: fixed;
+    @include font($size: 3.2rem, $height: 5.12rem, $color: $color-dark-l);
+    top: 0;
+    right: 0;
+    background-color: $color-dark-3xl;
+    transform: translate(100%, 0);
+    width: 32rem;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 43px;
+    justify-content: center;
+    z-index: 1;
+    //Pets
+    &_pets {
+      @include font($size: 3.2rem, $height: 5.12rem, $color: $color-dark-l);
+      background-color: $color-light-xl;
+    }
+  }
+
+
+
+
+}
+
+.active-menu {
+  transform: translate(0, 0);
+  @extend %transition;
+}
+
+.navigation__link {
+  @extend %transition;
+  &:hover {
+    @extend %transition;
+    color: $color-light-s;
+  }
+  &:focus{
+    @extend %transition;
+    color: $color-light-s;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: $color-primary;
+    text-underline-offset: 6px;
+  }
+
+}
+.active-link {
+  color: $color-light-s;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: $color-primary;
+  text-underline-offset: 6px;
+
+}
+
+
+//Pets
+//.navigation_pets {
+//  @include font($size: 1.5rem, $height: 2.4rem, $color: $color-dark-l);
+//  @include media-less-tablet {
+//    @include font($size: 3.2rem, $height: 5.12rem, $color: $color-dark-l);
+//  }
+//}
+
+.navigation-pets__link {
+  @extend %transition;
+  &:hover {
+    color: $color-dark-3xl;
+  }
+  &:focus {
+    color: $color-dark-3xl;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: $color-primary;
+    text-underline-offset: 6px;
+  }
+
+}
+.active-link-pets {
+  color: $color-dark-3xl;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: $color-primary;
+  text-underline-offset: 6px;
+}
+
+.navigation-arrow {
+  display: flex;
+  gap: 22px;
+  margin-top: 60px;
+  @include media-tablet {
+    margin-top: 40px;
+    gap: 20px;
+  }
+  @include media-mobile-big {
+    margin-top: 40px;
+    gap: 10px;
+  }
+
+}

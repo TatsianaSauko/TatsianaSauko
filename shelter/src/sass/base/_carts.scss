@@ -1,0 +1,149 @@
+.card {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: $color-light-s;
+  border-radius: 9px 9px 9px 9px;
+  padding-bottom: 30px;
+  //position: absolute;
+  transition: all ease 1s;
+  @extend %transition;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  img {
+    width: 270px;
+    height: 270px;
+  }
+  &:hover {
+    background-color: $color-light-xl;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    @extend %transition;
+  }
+  &:hover button {
+    background: $color-primary-light;
+  }
+  &_7 {
+    @include media-tablet {
+      display: none;
+
+    }
+  }
+  &_8 {
+    @include media-tablet {
+      display: none;
+
+    }
+  }
+  &_4 {
+    @include media-mobile {
+      display: none;
+
+    }
+  }
+  &_5 {
+    @include media-mobile {
+      display: none;
+
+    }
+  }
+  &_6 {
+    @include media-mobile {
+      display: none;
+
+    }
+  }
+}
+
+.card__title {
+  @extend %font-add;
+  @include font($size: 2rem, $height: 2.272rem, $color: $color-dark-l);
+  letter-spacing: 0.06rem;
+
+
+}
+
+.article-modal__content {
+  display: flex;
+  gap: 20px;
+  max-width: 900px;
+  height: 500px;
+  @include media-tablet {
+    gap: 11px;
+    max-width: 630px;
+    height: 350px;
+  }
+  @include media-mobile {
+    max-width: 240px;
+    height: 341px;
+    img {
+      display: none;
+    }
+  }
+  .card__title {
+    @include font($size: 3.5rem, $height: 4.55rem, $color: $hamburger-pets);
+    letter-spacing: 0.06em;
+  }
+  .card__content {
+    padding-top: 50px;
+    margin-right: 20px;
+    @include media-tablet {
+      padding-top: 10px;
+      margin-right: 9px;
+    }
+    @include media-tablet {
+      padding-top: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+    }
+
+  }
+  .card__subtitle {
+    padding-top: 10px;
+  }
+  .card__text {
+    padding: 40px 0;
+    @include font($size: 1.5rem, $height: 1.65rem, $color: $hamburger-pets);
+    letter-spacing: 0.06em;
+    @include media-tablet {
+      @include font($size: 1.3rem, $height: 1.43rem, $color: $hamburger-pets);
+      padding: 20px 0;
+    }
+  }
+  .card__list {
+    @include font($size: 1.5rem, $height: 1.65rem, $color: $hamburger-pets);
+    letter-spacing: 0.06em;
+    >* {
+      padding-bottom: 11px;
+      @include media-tablet {
+        padding-bottom: 6px;
+      }
+    }
+  }
+  .marker {
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    background: $color-primary;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+  }
+  .list__name {
+    @include font($size: 1.5rem, $height: 1.65rem, $color: $hamburger-pets, $weight: 700);
+    letter-spacing: 0.06em;
+  }
+  .card__image {
+    //width: 100%;
+    @include media-tablet {
+      //position: static;
+    }
+  }
+
+
+
+}
