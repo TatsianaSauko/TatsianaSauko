@@ -1,0 +1,10 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+.container {
+  margin: 0 auto;
+  max-width: $content-width;
+  padding: 0 15px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
