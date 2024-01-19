@@ -1,0 +1,63 @@
+.footer {
+  background-image: url("../assets/images/png/fon.png"), linear-gradient(to right, $start-screen-gradient-background -30%, $end-screen-gradient-background);
+  padding-top: 40px;
+  @include media-tablet {
+    padding-top: 30px;
+  }
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  column-gap: 160px;
+  row-gap: 65px;
+  @include tablet-more-width {
+    column-gap: 61px;
+  }
+  @include media-mobile {
+    row-gap: 40px;
+    img {
+      width: 260px;
+    }
+  }
+}
+
+
+.footer__title {
+  color: $color-light-xl;
+  @include media-mobile {
+    text-align: center;
+  }
+}
+
+.footer__mail {
+  padding-top: 15px;
+  @include rows(40px);
+  max-width: 278px;
+  @include tablet-more-width {
+    padding-top: 0;
+  }
+  @include media-mobile {
+    padding-top: 0;
+    align-items: center;
+  }
+}
+
+.footer__locations {
+  padding-top: 15px;
+  @include rows(28px);
+  max-width: 302px;
+  @include tablet-more-width {
+    padding-top: 0;
+  }
+  @include media-mobile {
+
+    .footer__title_locations {
+      max-width: 270px;
+      margin: auto;
+    }
+    max-width: 300px;
+    @include rows(40px);
+  }
+}

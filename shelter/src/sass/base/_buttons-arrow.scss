@@ -1,0 +1,111 @@
+.button-arrow {
+  width: 52px;
+  height: 52px;
+  border: 2px solid $color-primary;
+  border-radius: 100px;
+  cursor: pointer;
+  //-webkit-tap-highlight-color: transparent;
+
+  @extend %transition;
+  &_left {
+    background: url("../assets/images/png/arrow-left.png") no-repeat center;
+    margin: auto 53px auto auto;
+    //margin: 53px;
+    @include media-tablet {
+      margin-right: 15px;
+    }
+    @include media-less-tablet {
+      margin: auto;
+      position: absolute;
+      top: 455px;
+      left: 43px;
+      z-index: 2;
+    }
+    &:hover {
+      background: $color-primary-light url("../assets/images/png/arrow-left.png") no-repeat center;
+    }
+  }
+  &_right {
+    background: url("../assets/images/png/arrow-right.png") no-repeat center;
+    //margin: auto;
+    margin: auto auto auto 53px;
+    @include media-tablet {
+      margin: auto auto auto 15px;
+    }
+    @include media-less-tablet {
+      margin: auto;
+      position: absolute;
+
+      top: 455px;
+      left: 175px;
+    }
+    &:hover {
+      background: $color-primary-light url("../assets/images/png/arrow-right.png") no-repeat center;
+    }
+  }
+}
+
+.inactive {
+  display: none;
+}
+
+.button-paginator {
+  width: 52px;
+  height: 52px;
+  border: 2px solid $color-dark-s;
+  border-radius: 100px;
+  @extend %transition;
+  &_inactive-left-last {
+    background: url("../assets/images/png/left_inactive_last.png") no-repeat center;
+  }
+  &_active-left-last {
+    cursor: pointer;
+    border: 2px solid $color-primary;
+    background: url("../assets/images/png/left_active_last.png") no-repeat center;
+    &:hover {
+      background: $color-primary-light url("../assets/images/png/left_active_last.png") no-repeat center;
+    }
+  }
+  &_inactive-left {
+    background: url("../assets/images/png/left_inactive.png") no-repeat center;
+  }
+  &_active-left {
+    cursor: pointer;
+    border: 2px solid $color-primary;
+    background: url("../assets/images/png/left_active.png") no-repeat center;
+    &:hover {
+      background: $color-primary-light url("../assets/images/png/left_active.png") no-repeat center;
+    }
+  }
+  &_active-right-last {
+    cursor: pointer;
+    border: 2px solid $color-primary;
+    background: url("../assets/images/png/right_active_last.png") no-repeat center;
+    &:hover {
+      background: $color-primary-light url("../assets/images/png/right_active_last.png") no-repeat center;
+    }
+  }
+  &_inactive-right-last {
+    background: url("../assets/images/png/right_inactive_last.png") no-repeat center;
+  }
+  &_active-right {
+    cursor: pointer;
+    border: 2px solid $color-primary;
+    background: url("../assets/images/png/right_active.png") no-repeat center;
+    &:hover {
+      background: $color-primary-light url("../assets/images/png/right_active.png") no-repeat center;
+    }
+  }
+  &_inactive-right {
+    background: url("../assets/images/png/right_inactive.png") no-repeat center;
+  }
+  &_active {
+    background: $color-primary;
+    @extend %font-add;
+    @include font($size: 2rem, $height: 2.3rem, $color: $color-dark-3xl);
+    letter-spacing: 0.06em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

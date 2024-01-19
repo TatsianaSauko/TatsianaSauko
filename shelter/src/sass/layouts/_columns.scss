@@ -1,0 +1,14 @@
+.layout-2-column {
+  @include columns($width: 48%);
+
+}
+
+
+//.layout-3-column {
+//  @include columns($width: 27%);
+//}
+
+
+//.layout-4-column {
+//  @include columns($width: 21%);
+//}

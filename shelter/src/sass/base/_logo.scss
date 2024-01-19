@@ -1,0 +1,44 @@
+.logo {
+  @extend %font-add;
+  @include font($size: 3.2rem, $height: 3.52rem, $color: $color-primary);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    color: $logo-hover;
+    @extend %transition;
+  }
+}
+
+.logo__subtitle {
+  @include font($size: 1.3rem, $height: 1.495rem, $color: $color-light-xl);
+  letter-spacing: 0.13rem;
+  margin-left: 5px;
+  @include media-mobile {
+    @include font($size: 1.3rem, $height: 1.7rem, $color: $color-light-xl);
+  }
+}
+
+.header__logo-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+//logo-pets
+.logo-pets {
+  @extend %font-add;
+  @include font($size: 3.2rem, $height: 3.52rem, $color: $color-dark-l);
+  letter-spacing: 0.06em;
+  @extend %transition;
+  &:hover {
+    color: $logo-hover;
+    @extend %transition;
+  }
+}
+
+.logo-pets__subtitle {
+  @include font($size: 1.3rem, $height: 1.495rem, $color: $color-dark-3xl);
+  letter-spacing: 0.13rem;
+  margin-left: 5px
+}

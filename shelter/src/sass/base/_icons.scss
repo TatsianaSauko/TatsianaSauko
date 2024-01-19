@@ -1,0 +1,126 @@
+.icon {
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include media-tablet {
+    width: 170px;
+  }
+  @include media-mobile-big {
+    width: 130px;
+    height: 87px;
+  }
+
+}
+.icon__title {
+  @extend %font-add;
+  @include font($size: 2rem, $height: 2.3rem, $color: $color-dark-l);
+  letter-spacing: 0.11rem;
+  margin-top: 30px;
+  @include media-mobile-big {
+    @include font($size: 1.5rem, $height: 1.65rem, $color: $color-dark-l);
+    margin-top: 20px;
+  }
+}
+.icon-help {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+
+  &_pet-food {
+    background: url("../assets/images/svg/pet-food.svg") top no-repeat;
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_transportation {
+    background: url("../assets/images/svg/transportation.svg") top no-repeat;
+      @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_toys {
+    background: url("../assets/images/svg/toys.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_bowls-and-cups {
+    background: url("../assets/images/svg/bowls-and-cups.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_shampoos {
+    background: url("../assets/images/svg/shampoos.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_vitamins {
+    background: url("../assets/images/svg/vitamins.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+
+  }
+  &_medicines {
+    background: url("../assets/images/svg/medicines.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_collars-leashes {
+    background: url("../assets/images/svg/collars-or-leashes.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+  &_sleeping-areas {
+    background: url("../assets/images/svg/sleeping-area.svg") top no-repeat;
+
+    @include media-mobile-big {
+      background-size: 95% 95%;
+    }
+  }
+}
+
+.icon-footer {
+  @extend %font-add;
+  @include font($size: 2rem, $height: 2.3rem, $color: $color-dark-l);
+  letter-spacing: 0.06em;
+
+  color: $color-primary;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @extend %transition;
+}
+
+.icon-footer__ico {
+  display: block;
+  &:hover .svg {
+    @extend %transition;
+    fill: $logo-hover;
+  }
+}
+.icon-footer__title {
+  display: block;
+  &:hover {
+    @extend %transition;
+    color: $logo-hover;
+  }
+}
+.pin {
+  padding-top: 5px;
+  @include media-mobile {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,59 @@
+.not-only {
+  padding-top: 90px;
+  background-image: url("../assets/images/png/fon.png"), radial-gradient(100% 370% at 0% 0%, $start-screen-gradient-background, $midl-screen-gradient-background, $end-screen-gradient-background);
+  @include media-tablet {
+    padding-top: 60px;
+  }
+}
+
+.not-only__wrapper{
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  @include media-laptop{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+}
+
+.not-only__content {
+  margin-top: 163px;
+  max-width: 460px;
+  @include media-laptop{
+    margin-top: 0;
+
+  }
+  @include media-tablet{
+    margin-top: 0;
+    form {
+      text-align: center;
+    }
+  }
+  @include media-less-tablet {
+    >* {
+      text-align: center;
+    }
+  }
+}
+
+
+.not-only__text {
+  @include font($size: 1.5rem, $height: 2.4rem, $color: $color-dark-s);
+  margin: 42px 0;
+  }
+
+.not-only__image {
+  @include media-tablet {
+    margin-left: 139px;
+    max-width: 569px;
+    max-height: 593px;
+  }
+  @include media-less-tablet {
+    margin-left: 40px;
+    max-width: 260px;
+  }
+
+}
+

@@ -1,0 +1,65 @@
+.in-addition {
+  background-color: $color-light-l;
+}
+
+.in-addition__wrapper {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto;
+  @include media-tablet {
+    >* {
+      margin: auto;
+    }
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  @include media-mobile {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    gap: 42px;
+    img {
+      max-width: 260px;
+    }
+  }
+}
+
+.in-addition__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 380px;
+  gap: 22px;
+  @include media-mobile {
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+  }
+}
+
+.tel-in-addition {
+  padding: 10px 15px 10px 60px;
+  background: $color-primary url("../assets/images/svg/credit-card.svg") left 15px center no-repeat;
+  border-radius: 9px;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    @extend %transition;
+  }
+  @include media-mobile {
+    padding: 13px 15px 13px 60px;
+  }
+}
+
+.in-addition__information {
+  @include font($size: 1.2rem, $height: 1.8rem, $color: $color-dark-m, $style: italic);
+  @include media-mobile-big {
+    text-align: justify;
+  }
+}

@@ -1,0 +1,52 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $color-overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  @extend %transition;
+}
+
+.modal {
+  position: relative;
+
+}
+.modal__content {
+  background-color: $color-light-s;
+  border-radius: 10px;
+  width: 900px;
+  height: 500px;
+  overflow: auto;
+  @include media-tablet {
+    width: 630px;
+    height: 350px;
+  }
+  @include media-mobile {
+    width: 240px;
+    height: 341px;
+  }
+  @extend %custom-scroll;
+}
+
+.modal__close-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  position: absolute;
+  top: -50px;
+  right: -35px;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    background: $color-primary-light;
+  }
+  svg {
+    pointer-events: none;
+  }
+
+}
