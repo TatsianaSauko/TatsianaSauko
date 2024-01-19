@@ -1,0 +1,38 @@
+.cell {
+  width: 10%;
+  height: 4rem;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid $color-background;
+  background:  #e2e2e2;
+  cursor: pointer;
+  user-select: none;
+  &_difficult {
+    width: 4%;
+    height: 3rem;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  &_mid {
+    width: 6.66%;
+  }
+
+}
+
+.cell_dark {
+  //background: #383b40;
+  background: #0101019e;
+
+}
+
+
+
+
+.disabled {
+  background: $color-disabled;
+}
+
+.disabled_dark {
+  background: #444444;
+}
