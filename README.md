@@ -8,15 +8,6 @@ Also successfully completed courses at Сleverteс 🏆.
 
 ## 💼 Projects 
 
-  ### 🌟 Rolling Scopes School JavaScript/Front-end 2023Q1 - eCommerce Application 🛍️🌐
-
-   🏅 Certificate: [JavaScript Certificate](https://app.rs.school/certificate/lhnto46e)  
-   🔗 [GitHub](https://github.com/Western8/ocean-store/tree/develop)<br/>
-   🚀 [Deploy](https://oceanstore-web.netlify.app/)<br/>
-   📝 The assignment for the project can be found here [Task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application)<br/>
-   Description: The application is powered by CommerceTools 🌐, a leading provider of commerce solutions for B2C and B2B enterprises. The application is to be developed in teams of three 👨‍💻👩‍💻👨‍💻. Tack of technologies used: Webpack, TypeScript, Jest, Husky, Eslint, Sass and more
-
-
    ### 🌟 Rolling Scopes School React 2023 Q4 - GraphiQL playground/IDE application
 
    🏅 Certificate: [React Certificate](https://app.rs.school/certificate/nuj0hkuq)<br/>
@@ -24,6 +15,15 @@ Also successfully completed courses at Сleverteс 🏆.
    🚀 [Deploy](https://graphiql-app-amogus.vercel.app/)<br/>
    📝 The assignment for the project can be found here [Task](https://github.com/ChocolateNao/graphiql-app/pull/17)<br/>
    Description: Developed a GraphiQL playground/IDE application for sending and receiving GraphQL requests using React, TypeScript, Redux and more. Collaborated with a team of three members.
+
+
+  ### 🌟 Rolling Scopes School JavaScript/Front-end 2023Q1 - eCommerce Application 🛍️🌐
+
+   🏅 Certificate: [JavaScript Certificate](https://app.rs.school/certificate/lhnto46e)  
+   🔗 [GitHub](https://github.com/Western8/ocean-store/tree/develop)<br/>
+   🚀 [Deploy](https://oceanstore-web.netlify.app/)<br/>
+   📝 The assignment for the project can be found here [Task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application)<br/>
+   Description: The application is powered by CommerceTools 🌐, a leading provider of commerce solutions for B2C and B2B enterprises. The application is to be developed in teams of three 👨‍💻👩‍💻👨‍💻. Tack of technologies used: Webpack, TypeScript, Jest, Husky, Eslint, Sass and more
    
  🎓 **Study projects:**
  
@@ -33,16 +33,16 @@ Also successfully completed courses at Сleverteс 🏆.
 ✔️ [CssBayan](https://tatsianasauko.github.io/cssBayan/cssBayan/index.html)<br/>
 ✔️ [Virtual-keyboard](https://tatsianasauko.github.io/virtual-keyboard/virtual-keyboard/index.html)<br/>
 ✔️ [Minesweeper](https://tatsianasauko.github.io/TatsianaSauko/minesweeper/)<br/>
+✔️ [RSS-CSS-Selectors](https://lucky-truffle-96d0ed.netlify.app/)<br/>
+✔️ [Async-race](https://rolling-scopes-school.github.io/tatsianasauko-JSFE2023Q1/) <br/>
 ✔️ [Anime](https://react-omega-woad.vercel.app/ )<br/>
 ✔️ [Forms](https://react-form-rs-school.netlify.app/)<br/>
-✔️ [Async-race](https://rolling-scopes-school.github.io/tatsianasauko-JSFE2023Q1/) <br/>
 
 
   ### 🌟 Clevertec - CleverFit app - personal assistant in the world of fitness
 
    🏅 Certificate: [Certificate](https://drive.google.com/file/d/1dKRAV_oOEgJhMrvRQDMvr1t5HLrgPpfg/view?usp=drive_link)  
    🔗 [GitHub](https://github.com/TatsianaSauko/clevertec)<br/>
-   🚀 [Deploy]()<br/>
    Tack of technologies used: Vite, TypeScript, Ant-design, Eslint, React, Redux, Axios
 
 <h2 align="center">🚀🌍 My Location</h2>
