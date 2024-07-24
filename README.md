@@ -21,7 +21,6 @@ Also successfully completed courses at Сleverteс 🏆.
 
    🏅 Certificate: [JavaScript Certificate](https://app.rs.school/certificate/lhnto46e)  
    🔗 [GitHub](https://github.com/Western8/ocean-store/tree/develop)<br/>
-   🚀 [Deploy](https://oceanstore-web.netlify.app/)<br/>
    📝 The assignment for the project can be found here [Task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application)<br/>
    Description: The application is powered by CommerceTools 🌐, a leading provider of commerce solutions for B2C and B2B enterprises. The application is to be developed in teams of three 👨‍💻👩‍💻👨‍💻. Tack of technologies used: Webpack, TypeScript, Jest, Husky, Eslint, Sass and more
    
