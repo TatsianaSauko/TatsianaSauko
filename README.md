@@ -34,7 +34,7 @@ Also successfully completed courses at Сleverteс 🏆.
 ✔️ [Minesweeper](https://tatsianasauko.github.io/TatsianaSauko/minesweeper/)<br/>
 ✔️ [RSS-CSS-Selectors](https://lucky-truffle-96d0ed.netlify.app/)<br/>
 ✔️ [Async-race](https://rolling-scopes-school.github.io/tatsianasauko-JSFE2023Q1/) <br/>
-✔️ [Anime](https://react-omega-woad.vercel.app/ )<br/>
+✔️ [Anime](https://redux-rtk-tatiana.netlify.app )<br/>
 ✔️ [Forms](https://react-form-rs-school.netlify.app/)<br/>
 
 
