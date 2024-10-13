@@ -2,7 +2,7 @@
 
 I am a **passionate programmer** who is striving to fulfill my dream of working as a **professional developer**. By creating various applications and continuously honing my skills, I am gradually paving my way towards a career in programming.
 
-I have successfully completed courses at Rolling Scopes School in JavaScript/Front-end 2023Q1 🏆 and React 2023 Q4 🏆.
+I have successfully completed courses at Rolling Scopes School in JavaScript/Front-end 2023Q1 🏆 and React 2023 Q4 🏆.<br/>
 [Link to CV from RS School](https://app.rs.school/cv/3dcf175b-d0b6-4051-817e-fc6e8a46b8ff)<br/>
 
 Also successfully completed courses at Сleverteс 🏆.
