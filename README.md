@@ -3,6 +3,7 @@
 I am a **passionate programmer** who is striving to fulfill my dream of working as a **professional developer**. By creating various applications and continuously honing my skills, I am gradually paving my way towards a career in programming.
 
 I have successfully completed courses at Rolling Scopes School in JavaScript/Front-end 2023Q1 🏆 and React 2023 Q4 🏆.
+[Link to CV from RS School](https://app.rs.school/cv/3dcf175b-d0b6-4051-817e-fc6e8a46b8ff)<br/>
 
 Also successfully completed courses at Сleverteс 🏆.
 
@@ -14,7 +15,6 @@ Also successfully completed courses at Сleverteс 🏆.
    🔗 [GitHub](https://github.com/ChocolateNao/graphiql-app)<br/>
    🚀 [Deploy](https://graphiql-app-amogus.vercel.app/)<br/>
    📝 The assignment for the project can be found here [Task](https://github.com/ChocolateNao/graphiql-app/pull/17)<br/>
-   [Link to CV from RS School](https://app.rs.school/cv/3dcf175b-d0b6-4051-817e-fc6e8a46b8ff)<br/>
    Description: Developed a GraphiQL playground/IDE application for sending and receiving GraphQL requests using React, TypeScript, Redux and more. Collaborated with a team of three members.
 
 
