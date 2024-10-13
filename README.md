@@ -14,6 +14,7 @@ Also successfully completed courses at Сleverteс 🏆.
    🔗 [GitHub](https://github.com/ChocolateNao/graphiql-app)<br/>
    🚀 [Deploy](https://graphiql-app-amogus.vercel.app/)<br/>
    📝 The assignment for the project can be found here [Task](https://github.com/ChocolateNao/graphiql-app/pull/17)<br/>
+   [Link to CV from RS School](https://app.rs.school/cv/3dcf175b-d0b6-4051-817e-fc6e8a46b8ff)<br/>
    Description: Developed a GraphiQL playground/IDE application for sending and receiving GraphQL requests using React, TypeScript, Redux and more. Collaborated with a team of three members.
 
 
